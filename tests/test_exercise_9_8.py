@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'object-oriented-programming')))
+
+
 import pytest
 from functools import singledispatch
 from collections.abc import Sequence
